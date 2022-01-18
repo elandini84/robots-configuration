@@ -1127,6 +1127,13 @@
     <child link="depth_center"/>
     <dynamics damping="0.1"/>
   </joint>
+  <link name="external_depth_center"/>
+  <joint name="external_depth_center_fixed_joint" type="fixed">
+    <origin xyz="0.0 0 0.15" rpy="0 0 0"/>
+    <parent link="depth_center"/>
+    <child link="external_depth_center"/>
+    <dynamics damping="0.1"/>
+  </joint>
   <link name="mobile_base_r_tyre_link">
     <inertial>
       <origin xyz="0 -0.034425 8.99999999998e-06" rpy="0 0 0"/>
