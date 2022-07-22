@@ -96,5 +96,6 @@
     <!--  ROS -->
     <xi:include href="wrappers/motorControl/cer_alljoints_remapper.xml" />
     <xi:include href="wrappers/motorControl/cer_alljoints_ros2_wrapper.xml" />
+    <xi:include href="wrappers/motorControl/cer_alljoints_ros2Ctrl_wrapper.xml" />
 </devices>
 </robot> 
