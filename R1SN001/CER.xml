@@ -78,11 +78,10 @@
     <xi:include href="calibrators/cer_right_hand-calib.xml" disabled_by="disable_right_hand"/>
 
     <!-- SKIN-->
-<!--<xi:include href="hardware/skin/left_hand-mc9-skin.xml" />
-    <xi:include href="wrappers/skin/left_hand-skin_wrapper.xml" />
-    <xi:include href="hardware/skin/right_hand-mc7-skin.xml" />
-    <xi:include href="wrappers/skin/right_hand-skin_wrapper.xml" />
--->
+    <xi:include href="hardware/skin/left_hand-mc9-skin.xml" enabled_by="enable_skin"/>
+    <xi:include href="wrappers/skin/left_hand-skin_wrapper.xml" enabled_by="enable_skin"/>
+    <xi:include href="hardware/skin/right_hand-mc7-skin.xml" enabled_by="enable_skin"/>
+    <xi:include href="wrappers/skin/right_hand-skin_wrapper.xml" enabled_by="enable_skin"/>
 
     <!--  FT -->
     <xi:include href="hardware/FT/cer_left_shoulder-ems5-strain.xml" disabled_by="disable_ft"/>
